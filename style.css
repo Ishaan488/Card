@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(225, 212, 150);
+}
+.card{
+    height: 450px;
+    width:300px;
+    border: 2px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+img{
+    width: 290px;
+    border-radius: 10px;
+}
+.image{
+    padding: 5px;
+}
+.tags{
+    display: flex;
+    padding: 5px;
+    margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tag1{
+    font-size: 13px;
+    background-color: rgb(214, 214, 214);
+    color: rgb(108, 108, 108);
+    margin-right: 15px;
+    padding-left:8px;
+    padding-right:8px;
+    padding-bottom: 4px;
+    height:16px;
+    border-radius: 9px;
+}
+#tag2{
+    font-size: 13px;
+    background-color: rgb(214, 214, 214);
+    color: rgb(108, 108, 108);
+    margin-right: 15px;
+    padding-left:8px;
+    padding-right:8px;
+    padding-bottom: 4px;
+    height:16px;
+    border-radius: 9px;
+}
+
+.head{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding: 8px;
+    margin-left: 10px;
+}
+.cont{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(96, 95, 95);
+    font-weight:15px;
+    padding:8px;
+    margin-left: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+button{
+    width: 100px;
+    height:32px;
+    background-color: rgb(199, 217, 255);
+    border: none;
+    border-radius: 16px;
+    color: rgb(3, 116, 215);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-top: 1px;
+}
+button:hover{
+    transition: 300ms;
+    background-color: rgb(150, 217, 255);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
